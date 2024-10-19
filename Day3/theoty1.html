@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>form</title>
+    <style> 
+        /* form{
+            text-align: center;
+        } */
+    </style>
+</head>
+<body>
+    <h2>The form target attribute</h2>
+    <form>
+        <fieldset>
+            <legend>personal info</legend>
+        <label>First Name:</label>
+        <input type="text" name="name" placeholder="Enter First Name" required><br><br>
+        <label>Last name:</label>
+        <input type="text" placeholder="Enter last name" name="last name" required><br><br>
+
+        <label>Email:</label>
+        <input type="text" placeholder="Enter email" name="email"><br><br>
+        <Label>password:</Label>
+        <input type="password">
+    </fieldset>
+        <br><br>
+   
+        <label>Gender:</label>
+        <input type="radio" name="Gender" value="male" required>
+        <label>Male</label>
+        <input type="radio" name="Gender" value="female" required>
+        <label>Female</label>
+        <input type="radio" name="Gender" value="trans Gender" required>
+        <label>Trans Gender</label>
+        
+<br>
+<br>
+        <label>Age:</label>
+        <input type="number"><br><br>
+        <label>Preferences:</label><br>
+        <input type="checkbox" name="vehicle">
+        <label>Cyclic painting</label>
+        <input type="checkbox" name="vehicle">
+        <label>Old painting</label>
+        <input type="checkbox" name="vehicle">
+        <label>Under colour painting</label><br><br>
+
+        <label>Occupation</label>
+        <select name="Occupation" id="">
+            <option >--select</option>
+            <option value="Teacher">Teacher</option>
+            <option value="farmer">Farmer</option>
+            </select>
+            <br><br>
+            <label>Datalist</label>
+            <input list="browser">
+            <datalist id="browser">
+                <option value="EDGE">
+                <option value="CHROME">
+                    <option value="FIRE FOX">
+            </datalist>
+            <BR>
+            <label>bio</label><br>
+            <textarea rows="5" cols="10"> </textarea>
+            <br>
+       <button type="submit" onclick="alert('Submmited')">Submit</button>
+        <!-- <input type="button" value="submit"> -->
+        <input type="reset" value="Reset">
+        <button type="button" onclick="alert('hello')">click me </button>
+    
+    </form>
+</body>
+</html>
